@@ -7,8 +7,8 @@ The application to be able to run needs the following steps:
 creating in eclipse a run configuration having as location:
 C: \ Program Files \ Java \ jdk1.8.0_201 \ bin \ rmiregistry.exe
 and as working directory: the bin folder of the project:
-$ {workspace_loc: / GenesysGame / bin}
-4) The Server run configuration must be set with the following VM arguments:
--Djava.security.policy = file: $ {workspace_loc} /GenesysGame/security.policy -Djava.rmi.server.codebase = file: $ {workspace_loc} / GenesysGame / bin /
+as shown in Cattura_rmi_repository 
+4) The Server run configuration must be set with the VM arguments
+that are shown in Cattura_run_congiuration_Server
 
 the images of the various steps are attached
